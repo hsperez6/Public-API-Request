@@ -1,5 +1,5 @@
 # Public-API-Request
- Fictional employee directory using API requests
+ Fictional employee directory using fetch API requests, async/await, and modals.
 
 
 In CSS, I changed the font color on .modal, .modal-text, and .card-text to black to increase contrast and make it easier to read.
