@@ -153,6 +153,7 @@ document.addEventListener('DOMContentLoaded', async (e) => {
                 createModal(index - 1);
             } else {
                 modalContainer.remove();
+                createModal(11)
             }
         });
 
@@ -162,6 +163,7 @@ document.addEventListener('DOMContentLoaded', async (e) => {
                 createModal(index + 1);
             } else {
                 modalContainer.remove();
+                createModal(0);
             }
         });
 
@@ -189,7 +191,6 @@ document.addEventListener('DOMContentLoaded', async (e) => {
     }
 
     insertSearchBox();
-
 
     /********************
      * SEARCH HELPER FUNCTIONS
