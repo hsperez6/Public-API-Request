@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: rgba(149, 149, 236, 0.9);
 }
 
 header {
@@ -90,12 +90,16 @@ header h1 {
     border: 1px solid rgba(50, 50, 50, 0.3);
     transition: .4s ease-out;
     overflow: hidden;
+    box-shadow: 5px 5px rgba(54, 49, 73, 0.9);
 }
 
 .card-img {
     width: 95px;
     margin: 10px 15px auto 10px;
     border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(54, 49, 73, 0.9);
 }
 
 .card-info-container {
@@ -108,7 +112,7 @@ header h1 {
 
 .card-text {
     font-size: 0.9em;
-    color: rgba(50, 50, 50, 0.7);
+    color: black;
     margin: 7px auto;
     transition: .4s ease-out;
 }
@@ -138,10 +142,12 @@ header h1 {
     min-height: 415px;
     margin: 10px auto auto;
     padding-bottom: 15px;
-    background: rgba(255, 255, 255, 1);
+    background: rgb(245, 219, 219);
     border-radius: 0.25em;
     border: 1px solid rgba(100, 100, 100, 0.3);
     transition: .4s ease-out;
+    font-weight: bold;
+    color: black
 }
 
 .modal-close-btn {
@@ -166,7 +172,7 @@ header h1 {
 }
 
 .modal-text {
-    color: rgba(50, 50, 50, 0.7);
+    color: black;
     margin: 10px;
 }
 
@@ -185,7 +191,7 @@ header h1 {
     max-width: 420px;
     padding: 10px 15px 15px;;
     margin: 10px auto auto;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(245, 219, 219);
     border-radius: 0.25em;
     border: 1px solid rgba(100, 100, 100, 0.3);
 }
